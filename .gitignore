@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+*zip
+events*
 
 # Distribution / packaging
 .Python
@@ -31,6 +33,17 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+*json 
+*txt
+*tsv*
+*csv
+*pth
+*premodel/
+*pt
+*tmp*
+*json
+*txt
+*bin
 
 # Installer logs
 pip-log.txt
@@ -151,6 +164,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+*npy
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
@@ -158,3 +172,20 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+*csv
+*pth 
+*premodel/
+*pt
+*tmp*
+zoo_kaggle/DatawhaleNLP/for_paper_classification/premodels/roberta-base_saved/models--roberta-base/blobs/8db5e7ac5bfc9ec8b613b776009300fe3685d957
+zoo_kaggle/DatawhaleNLP/for_paper_classification/premodels/roberta-base_saved/models--roberta-base/blobs/226b0752cac7789c48f0cb3ec53eda48b7be36cc
+zoo_kaggle/DatawhaleNLP/for_paper_classification/premodels/roberta-base_saved/models--roberta-base/blobs/278b7a95739c4392fae9b818bb5343dde20be1b89318f37a6d939e1e1b9e461b
+.gitignore
+zoo_kaggle/DatawhaleNLP/for_paper_classification/premodels/roberta-base_saved/models--roberta-base/blobs/5606f48548d99a9829d10a96cd364b816b02cd21
+zoo_kaggle/DatawhaleNLP/for_paper_classification/premodels/roberta-base_saved/models--roberta-base/blobs/ad0bcbeb288f0d1373d88e0762e66357f55b8311.lock
+.gitignore
+zoo_rl/basicEnv/DQN_MyCar.zip
+zoo_rl/basicEnv/deepq_cartpole.zip
+zoo_rl/basicEnv/logs/DQN_1/events.out.tfevents.1692933462.step-lab.4779.0
+.gitignore
+zoo_kaggle/DatawhaleNLP/for_paper_classification/premodels/roberta-base_saved/models--roberta-base/refs/main
